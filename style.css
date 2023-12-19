@@ -33,6 +33,7 @@ span{
 nav{
     display: flex;
     margin-right: 25px;
+    margin-top: 25px;
     gap: 20px;
     
 }
