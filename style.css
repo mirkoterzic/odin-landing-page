@@ -42,6 +42,7 @@ a,p{
 .header img{
    height: 200px;
    width: 400px;
+   margin-left: 30px;
   
 }
 
@@ -66,7 +67,7 @@ a,p{
     align-self: center;
   
 }
-button{
+.header button{
     width: 100px;
     height: 50px;
     background-color: #3882f6;
@@ -76,11 +77,117 @@ button{
     margin-top: 10px;
 }
 
+.info .container{
+    display: flex;
+    height: 400px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    
+}
+.box{
+    height: 120px;
+    width: 100%;
+    border: #3882f6;
+    border-radius: 15px;
+    border-width: 4px;
+    border-style: solid;
+    
+}
+.info .items{
+    display: flex;
+}
+.info h2{
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-right:50px ;
 
 
+}
+.item p{
+    text-align: center;
+}
+.quote-section{
+    background-color: #e5e7eb;
+}
 
+.quote-section .container{
+    display: flex;
+    
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.quote-section .quote{
 
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-section .author{
+    align-self: flex-end;
+    font-weight: bolder;
+}
 
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: aliceblue;
+}
+.action .container{
+    display: flex;
+    height: 100px;
+    width: 75%;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 7px;
+    
+}
+.action h3{
+    color: #fff;
+
+}
+.action p{
+    color: #e5e7eb;
+
+}
+.action button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+    color: #fff;
+    width:150px;
+    padding: 5px;
+    margin-left: 250px;
+   
+}
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
